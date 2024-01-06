@@ -91,6 +91,9 @@ main {
     max-width: 1130px;
     margin: 0 auto;
 }
+ main section {
+    margin-top: 130px;
+ }
 
 /* about section  */
 .about {
@@ -134,10 +137,21 @@ main {
 
 .skills-container {
     display: flex;
+    gap: 25px;
 }
 
 .skill {
     border-radius: 5px;
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    padding: 30px;
+}
 
+.skills-discription {
+    color: #757575;
+}
+
+/* resume css start  */
+
+.resume-container {
+    display: flex;
 }
