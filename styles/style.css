@@ -152,6 +152,38 @@ main {
 
 /* resume css start  */
 
+.resume-container hr {
+    margin: 30px;
+}
 .resume-container {
     display: flex;
+    gap: 70px;
+}
+
+.resume-item-title {
+    color:  #474747;
+font-size: 30px;
+font-weight: 700;
+margin-bottom: 10px;
+}
+
+.resume-item-intitute {
+margin-top: 20px;
+margin-bottom: 0;
+}
+
+.resume-item-discription, .resume-item-intitute{
+    color: #757575;
+}
+
+.download-cv {
+    text-align: center;
+    margin: 60px auto;
+}
+
+/* footer section css  */
+.footer {
+    display: flex;
+    gap: 70px;
+    padding: 0 150px;
 }
